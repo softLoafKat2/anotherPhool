@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="theme-color" content="#00000">
+   <link rel="shortcut icon" href="/design/phoolForFav.png" type="image/x-icon"><title>Daisy</title>
+</head>
+<style>
+    :root{
+        --gorgeousWhite:rgba(255, 255, 255, 0.062);
+        --favPurple:rgba(151, 31, 255, 0.477);
+        --bloodRed:rgba(120, 6, 2, 0.532);
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: black;
+    }
+    
+    #middle_part_of_daisy{
+        height: 3rem;
+        width:3rem;
+        background-color: rgba(253, 241, 201, 0.438);
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        filter: blur(5px);
+    }
+    .purple_Dot_For_Mera_Phool{
+        position: absolute;
+        background-color: rgba(168, 0, 168, 0.867);
+        height: 8rem;
+        width: 8rem;
+        filter: blur(55px);
+        border-radius: 50%;
+        inset: 0;
+        margin: auto;
+    }
+    .frame1 {
+        height: 22rem;
+        width: 22rem;
+        /* outline: 1px solid rgba(198, 198, 198, 0.691); */
+        position: relative;
+        filter: drop-shadow(1px 1px 45px rgba(255, 0, 255, 0.294));
+        
+    }
+
+    .petals_section {
+        position: absolute;
+        height: 2.5rem;
+        width: 100%;
+        /* border: 1px solid black; */
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .pair_of_petals_2_section {
+        rotate: 20deg;
+    }
+
+    .pair_of_petals_3_section {
+        rotate: 40deg;
+    }
+
+    .pair_of_petals_4_section {
+        rotate: 60deg;
+    }
+
+    .pair_of_petals_5_section {
+        rotate: 80deg;
+    }
+
+    .pair_of_petals_6_section {
+        rotate: 100deg;
+    }
+
+    .pair_of_petals_7_section {
+        rotate: 120deg;
+    }
+
+    .pair_of_petals_8_section {
+        rotate: 140deg;
+    }
+
+    .pair_of_petals_9_section {
+        rotate: 160deg;
+    }
+    
+    .pair_of_actual_petals{
+        width: 45%;
+        height: 100%;
+        /* background-color: blue; */
+        position: absolute;
+        border-radius: 100%;
+        /* outline: 1px solid rgba(255, 255, 255, 0.291); */
+        backdrop-filter: blur(33px);
+    }
+    .pair_of_actual_petals:nth-child(1){
+        left: 0;
+        background: linear-gradient(to right, var(--gorgeousWhite), var(--favPurple));
+        filter: drop-shadow(1px 1px 5px var(--bloodRed));
+    }
+    .pair_of_actual_petals:nth-child(2){
+        background: linear-gradient(to left, var(--gorgeousWhite), var(--favPurple));
+        right: 0;
+        filter: drop-shadow(-1px -1px 5px var(--bloodRed));
+    }
+
+    #sign {
+            color: rgba(144, 141, 141, 0.519);
+            position: absolute;
+            bottom: .5rem;
+            right: 0.5rem;
+
+        }
+</style>
+
+<body>
+    <div class="frame1">
+        <div class="purple_Dot_For_Mera_Phool"></div>
+        <div id="middle_part_of_daisy"></div>
+        <div class="petals_section pair_of_petals_1_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+        <div class="petals_section pair_of_petals_2_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+        <div class="petals_section pair_of_petals_3_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+        <div class="petals_section pair_of_petals_4_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+        <div class="petals_section pair_of_petals_5_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+        <div class="petals_section pair_of_petals_6_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+        <div class="petals_section pair_of_petals_7_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+        <div class="petals_section pair_of_petals_8_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+        <div class="petals_section pair_of_petals_9_section">
+            <div class="pair_of_actual_petals"></div>
+            <div class="pair_of_actual_petals"></div>
+        </div>
+    </div>
+
+    <div id="sign"><i>~Ommmm</i></div>
+</body>
+
+</html>
